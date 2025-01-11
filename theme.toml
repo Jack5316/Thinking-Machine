@@ -1,23 +1,25 @@
-# theme.toml template for a Hugo theme
+# theme.toml template for your blog homepage
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "ThinkingMachine"
+name = "ThinkingMachineBlog"
 license = "MIT"
 licenselink = "https://github.com/jack5316/Thinking-Machine/blob/main/LICENSE"
-description = "A blog about AI, technology, and philosophy"
+description = "A personal blog exploring AI, technology, philosophy, and life"
 homepage = "https://jack5316.github.io/Thinking-Machine/"
 tags = [
   "AI",
   "technology",
   "philosophy",
   "blog",
-  "responsive",
+  "personal",
   "minimalist",
   "clean",
+  "responsive",
   "light",
   "dark",
   "highlight.js",
-  "search"
+  "search",
+  "customizable"
 ]
 features = [
   "responsive",
@@ -37,7 +39,8 @@ features = [
   "theme-toggle",
   "menu-location-indicator",
   "scroll-to-top",
-  "search"
+  "search",
+  "customizable-layout"
 ]
 min_version = "0.125.7"
 

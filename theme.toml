@@ -1,6 +1,3 @@
-# theme.toml template for your blog homepage
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
 name = "ThinkingMachineBlog"
 license = "MIT"
 licenselink = "https://github.com/jack5316/Thinking-Machine/blob/main/LICENSE"

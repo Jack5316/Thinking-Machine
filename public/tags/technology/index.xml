@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technology on </title>
+    <link>//localhost:1313/tags/technology/</link>
+    <description>Recent content in Technology on </description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridging Hardware and Software: My Journey in Technology</title>
+      <link>//localhost:1313/posts/bridging-hardware-and-software/</link>
+      <pubDate>Thu, 05 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/bridging-hardware-and-software/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Hello, and welcome to my blog! My name is &lt;strong&gt;Jiawei Tan (Jack)&lt;/strong&gt;, and I’m passionate about leveraging advanced technology to enhance productivity and improve quality of life. Over the years, I’ve developed a strong interest in both hardware and software, and I’m excited to share my journey, experiences, and insights with you.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;my-academic-background&#34;&gt;My Academic Background&lt;/h3&gt;
+&lt;p&gt;I’m currently pursuing a &lt;strong&gt;Bachelor of Engineering in Electronic Science and Technology&lt;/strong&gt; at Xi’an Jiaotong-Liverpool University, with a final GPA of &lt;strong&gt;3.7&lt;/strong&gt;. Next year, I’ll be starting my &lt;strong&gt;Master of Science in Computer Science&lt;/strong&gt; at &lt;strong&gt;University College London (UCL)&lt;/strong&gt;. This transition from hardware-focused studies to software and computer science reflects my growing interest in the intersection of these two fields.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

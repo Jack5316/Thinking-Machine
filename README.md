@@ -1,4 +1,4 @@
-<h1 align=center>Thinking Machine | <a href="https://jack5316.github.io/Thinking-Machine/" rel="nofollow"></a></h1>
+<h1 align=center>Thinking Machine | Blog <a href="https://jack5316.github.io/Thinking-Machine/" rel="nofollow"></a></h1>
 
 <h4 align=center>🤖 AI | 💻 Technology | 🧠 Philosophy | 🌍 Life</h4>
 <br>

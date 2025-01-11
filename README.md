@@ -1,4 +1,4 @@
-# Thinking Machine | <a href="https://jack5316.github.io/Thinking-Machine/">Demo</a>
+# Thinking Machine | <a href="https://jack5316.github.io/Thinking-Machine/">Blog</a>
 
 🤖 AI | 💻 Technology | 🧠 Philosophy | 🌍 Life
 

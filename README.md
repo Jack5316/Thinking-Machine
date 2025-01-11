@@ -17,4 +17,4 @@
 
 **Bridging Hardware and Software**  
 Explore the intricate relationship between hardware and software, and how their synergy drives technological innovation.  
-👉 [Read the post here](https://github.com/Jack5316/Thinking-Machine/blob/main/content/posts/bridging-hardware-and-software.md).
+👉 [Read the post here](https://jack5316.github.io/Thinking-Machine/posts/bridging-hardware-and-software/).

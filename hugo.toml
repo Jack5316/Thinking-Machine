@@ -1,0 +1,6 @@
+baseURL = "https://jack5316.github.io/Thinking-Machine/"
+languageCode = "en-us"
+title = "Thinking Machine"
+
+[params]
+  disableSpecial1stPost = true

@@ -2,5 +2,19 @@ baseURL = "https://jack5316.github.io/Thinking-Machine/"
 languageCode = "en-us"
 title = "Thinking Machine"
 
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+
 [params]
   disableSpecial1stPost = true

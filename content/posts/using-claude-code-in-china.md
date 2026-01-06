@@ -1,6 +1,6 @@
 ---
 title: "Using Claude Code in Mainland China: A Complete Guide with Proxy Setup"
-date: 2026-01-06
+date: 2025-01-06
 draft: false
 tags: ["Claude Code", "AI", "Development Tools", "China", "Proxy", "Tutorial"]
 categories: ["Technical"]
@@ -279,4 +279,4 @@ If you encounter any problems following this guide or have suggestions for impro
 Happy coding with Claude!
 
 **Jiawei Tan (Jack)**
-*January 6, 2026*
+*January 6, 2025*

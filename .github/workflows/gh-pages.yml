@@ -7,7 +7,7 @@ on:
       - "LICENSE"
       - "README.md"
     branches:
-      - master  # Replace with your default branch (e.g., main or master)
+      - main  # Triggers on pushes to main branch
   workflow_dispatch:
     # Manual trigger
     inputs:

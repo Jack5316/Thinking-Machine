@@ -1,25 +1,20 @@
 baseURL = "https://jack5316.github.io/Thinking-Machine/"
 languageCode = "en-us"
-title = "Thinking Machine - Jiawei Tan's Blog"
-theme = ""
+title = "Thinking Machine"
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
 
 [params]
   disableSpecial1stPost = true
-  description = "A personal blog exploring AI, technology, philosophy, and life"
-  author = "Jiawei Tan (Jack)"
-
-  # Enable home info params to show a description on homepage
-  [params.homeInfoParams]
-    Title = "Welcome to Thinking Machine"
-    Content = "Exploring the intersection of hardware and software, AI tools, and modern technology"
-
-[params.profileMode]
-  enabled = false
-
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/jack5316"
-
-[[params.socialIcons]]
-  name = "email"
-  url = "mailto:jiaweitan531@gmail.com"

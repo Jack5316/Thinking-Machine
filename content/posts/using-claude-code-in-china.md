@@ -2,6 +2,7 @@
 title: "Using Claude Code in Mainland China: A Complete Guide with Proxy Setup"
 date: 2025-01-06
 draft: false
+description: "A step-by-step guide to setting up and using Claude Code in mainland China using Clash for Windows proxy and native Node.js installation."
 tags: ["Claude Code", "AI", "Development Tools", "China", "Proxy", "Tutorial"]
 categories: ["Technical"]
 ---

@@ -2,7 +2,8 @@
 title: "Bridging Hardware and Software: My Journey in Technology"
 date: 2023-10-05
 draft: false
-tags: ["Technology", "Career", "Hardware", "Software"]
+description: "My journey from electronic engineering to computer science, exploring the intersection of hardware and software development."
+tags: ["Technology", "Career", "Hardware", "Software", "AI", "Personal"]
 categories: ["Academic"]
 ---
 

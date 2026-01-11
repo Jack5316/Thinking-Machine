@@ -1,5 +1,127 @@
 /*
-This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
-
-Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+Custom styles for Thinking Machine blog
 */
+
+/* ========== Related Posts ========== */
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.related-posts h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.related-posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-post-item {
+  margin-bottom: 0.75rem;
+}
+
+.related-post-item a {
+  display: flex;
+  flex-direction: column;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background: var(--code-bg);
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.related-post-item a:hover {
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-post-title {
+  font-weight: 500;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.related-post-meta {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.related-post-tags {
+  display: flex;
+  gap: 0.375rem;
+}
+
+.related-tag {
+  font-size: 0.75rem;
+  color: var(--tertiary);
+  background: var(--tertiary-bg, rgba(128, 128, 128, 0.1));
+  padding: 0.125rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* ========== Enhanced Tag Styling ========== */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.post-tags li {
+  list-style: none;
+}
+
+.post-tags li a {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
+  background: var(--code-bg);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.post-tags li a:hover {
+  color: var(--primary);
+  background: var(--border);
+  transform: translateY(-2px);
+}
+
+.post-tags li a::before {
+  content: "#";
+  opacity: 0.6;
+  margin-right: 0.125rem;
+}
+
+/* ========== Category Badge on Post List ========== */
+.entry-categories {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.entry-categories a {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--tertiary);
+  padding: 0.125rem 0.5rem;
+  background: var(--tertiary-bg, rgba(128, 128, 128, 0.1));
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.entry-categories a:hover {
+  background: var(--border);
+}

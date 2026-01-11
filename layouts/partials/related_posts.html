@@ -1,0 +1,25 @@
+{{- $related := site.RegularPages.Related . | first (site.Params.numberOfRelatedPosts | default 3) }}
+{{- with $related }}
+<div class="related-posts">
+  <h2>Related Articles</h2>
+  <ul class="related-posts-list">
+    {{- range . }}
+    <li class="related-post-item">
+      <a href="{{ .Permalink }}">
+        <span class="related-post-title">{{ .Title }}</span>
+        <span class="related-post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          {{- if .Params.tags }}
+          <span class="related-post-tags">
+            {{- range first 3 .Params.tags }}
+            <span class="related-tag">#{{ . }}</span>
+            {{- end }}
+          </span>
+          {{- end }}
+        </span>
+      </a>
+    </li>
+    {{- end }}
+  </ul>
+</div>
+{{- end }}

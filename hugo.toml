@@ -2,6 +2,11 @@ baseURL = "https://jack5316.github.io/Thinking-Machine/"
 languageCode = "en-us"
 title = "Thinking Machine"
 
+# Enable tags and categories
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [module]
   [[module.mounts]]
     source = "content"
@@ -17,4 +22,60 @@ title = "Thinking Machine"
     target = "i18n"
 
 [params]
+  env = "production"
+  description = "A personal blog exploring AI, technology, philosophy, and life"
+  author = "Jiawei Tan"
+
+  # Post display options
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowToc = true
+
+  # Related posts
+  numberOfRelatedPosts = 3
+
+  # Home page
   disableSpecial1stPost = true
+
+  # Edit post link
+  [params.editPost]
+    URL = "https://github.com/jack5316/Thinking-Machine/tree/main/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
+
+  # Social icons in footer
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jack5316"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jiaweitan531@gmail.com"
+
+# Related content configuration
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 80
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
+# Minification
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
